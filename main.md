@@ -35,9 +35,13 @@ if __name__ == "__main__":
     print("Hello world!")
 ```
 
-### Functions
+## Functions
 
 Floating functions may also be declared within the main context. These become regular functions in scripting languages and static members of the class in class-based languages.
+
+Functions declarations are started with `function start`, which takes in the name of the function in PascalCase, the return type, and any number of \(name, type\) parameters. They're ended with `function end`.
+
+Call these functions with `function`, which takes in the name of the function in PascalCase and any number of arguments.
 
 ```gls
 main context start
@@ -79,6 +83,8 @@ def say_hello(name):
 if __name__ == "__main__":
     say_hello("GLS")
 ```
+
+> Function names must be given in PascalCase so that GLS can transform them into the appropriate case for the output language. JavaScript, for example, prefers camelCase, while Python prefers snake\_case.
 
 
 
