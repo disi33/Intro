@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Syntax](chapter1.md)
+* [Syntax](syntax.md)
 * [Comments](comments.md)
 * [Omissions](omissions.md)
 
