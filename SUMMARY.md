@@ -6,5 +6,6 @@
   * [Strings](strings.md)
   * [Variables](variables.md)
   * [Math](math.md)
+  * [Main](main.md)
 * [Omissions](omissions.md)
 
