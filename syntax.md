@@ -2,18 +2,21 @@
 
 Each line in GLS consists of a function, a colon, and any number of arguments, all separated by spaces.
 
-```
+```gls
 print : "GLS!"
 ```
 
 * Function: `print`
 * Argument: `"GLS!"`
 
-`print : GLS` will compile to `System.Console.WriteLine("GLS!");` in C\#, `console.log("GLS!");` in TypeScript, and so on.
+This will compile to:
 
-Many commands, including `print`, take in multiple arguments:
+* In C\#: `System.Console.WriteLine("GLS!");` 
+* In Python: `print("GLS!")`
 
-```
+Many commands, including `print`, may take in multiple arguments:
+
+```gls
 print : "First" "second"
 ```
 
@@ -24,7 +27,7 @@ print : "First" "second"
 
 You can keep spaces inside your arguments by wrapping characters in parenthesis. This tells the compiler to treat the space as part of the argument instead of a separator.
 
-```
+```gls
 print : ("Hello world!")
 ```
 
@@ -35,7 +38,7 @@ print : ("Hello world!")
 
 To pipe the output of one command into another, wrap the inner command with`{}`brackets.
 
-```
+```gls
 print : { operation : 1 plus 2 }
 ```
 
