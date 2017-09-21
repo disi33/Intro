@@ -6,17 +6,17 @@ GLS intentionally targets a "lowest common denominator" of features for common O
 
 If any target language doesn't reasonably support a feature, GLS cannot support that feature.
 
-| Feature | C\# | Java | Python | Ruby | JavaScript, TypeScript |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| \`async\`/\`await\` |  | _Missing_ |  | _Missing_ |  |
-| Default Member Variable Values |  |  |  | _Missing_ |  |
-| Do/While Loops |  |  | _Missing_ |  |  |
-| Enums Without Values |  |  |  | _Missing_ |  |
-| Multiline Lambdas |  |  | _Missing_ |  |  |
-| Optional Parameters |  | _Missing_ |  |  |  |
-| Overloaded Functions |  |  | _Missing_ | _Missing_ | _Missing_ |
-| String.Replace |  |  |  |  | _Abnormal_ |
-| Switch Statements |  |  | _Missing_ |  |  |
+| Feature | C\# | Java | JavaScript | Python | Ruby | TypeScript |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| \`async\`/\`await\` |  | _Missing_ |  |  | _Missing_ |  |
+| Default Member Variable Values |  |  |  |  | _Missing_ |  |
+| Do/While Loops |  |  |  | _Missing_ |  |  |
+| Enums Without Values |  |  |  |  | _Missing_ |  |
+| Multiline Lambdas |  |  |  | _Missing_ |  |  |
+| Optional Parameters |  | _Missing_ |  |  |  |  |
+| Overloaded Functions |  |  | _Missing_ | _Missing_ | _Missing_ | _Missing_ |
+| String.Replace |  |  | _Abnormal_ |  |  | _Abnormal_ |
+| Switch Statements |  |  |  | _Missing_ |  |  |
 
 ## Intentionally Unsupported Languages
 
