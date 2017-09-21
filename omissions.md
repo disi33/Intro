@@ -6,9 +6,11 @@ GLS intentionally targets a "lowest common denominator" of features for common O
 
 If any target language doesn't reasonably support a feature, GLS cannot support that feature.
 
+    `async`/`await` 
+
 | Feature | C\# | Java | JavaScript | Python | Ruby | TypeScript |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| \`async\`/\`await\` |  | _Missing_ |  |  | _Missing_ |  |
+| `async`/`await` |  | _Missing_ |  |  | _Missing_ |  |
 | Default Member Variable Values |  |  |  |  | _Missing_ |  |
 | Do/While Loops |  |  |  | _Missing_ |  |  |
 | Enums Without Values |  |  |  |  | _Missing_ |  |
