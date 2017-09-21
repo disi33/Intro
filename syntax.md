@@ -11,6 +11,15 @@ print : "GLS!"
 
 `print : GLS` will compile to `System.Console.WriteLine("GLS!");` in C\#, `console.log("GLS!");` in TypeScript, and so on.
 
+Many commands, including `print`, take in multiple arguments:
+
+```
+print : "First" "second"
+```
+
+* Function: `print`
+* Arguments: `"First"`, `"second"`
+
 ### Parenthesis
 
 You can keep spaces inside your arguments by wrapping characters in parenthesis. This tells the compiler to treat the space as part of the argument instead of a separator.
@@ -29,6 +38,11 @@ To pipe the output of one command into another, wrap the inner command with`{}`b
 ```
 print : { operation : 1 plus 2 }
 ```
+
+* Function: `print`
+* Argument:
+  * Function: `operation`
+  * Arguments: `1`, `plus`, `2`
 
 
 
