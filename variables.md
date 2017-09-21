@@ -6,7 +6,7 @@ GLS allows for creating variables with the `variable` command. It requires the v
 >
 > Pythonic languages such as Python and Ruby will skip declaring variables without a default value.
 
-```
+```gls
 comment line : Simple declarations
 variable : foo string
 variable : bar number 7
@@ -56,6 +56,4 @@ corge = True
 As you saw from the interesting values above, some types such as infinity or true/false have aliases per language.
 
 Built-in types will always be lower-case in GLS. Uppercase types will always refer to user-defined classes.
-
-
 
