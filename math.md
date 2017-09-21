@@ -50,6 +50,10 @@ foo -= bar * (bar - 3)
 bar = foo /= 3 + 4 * foo
 ```
 
+### Number Types
+
+Some languages recognize a difference between integers, doubles, floats, and other number types. Some do not. For feature parity between other languages, GLS recognizes only `int` and `float` as valid number types. `double`, `long`, `ushort`, and so on are not supported.
+
 ### Native Commands
 
 All supported languages provide some amount of built-in math operations beyond the simple arithmetic operators. These are typically encapsulated in some kind of global `Math` object and/or system namespace that contains simple functions and constants.
