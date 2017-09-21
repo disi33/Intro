@@ -27,7 +27,7 @@ class Person
 {
     private string name;
     private float age;
-    
+
     Person(string name, float age)
     {
         this.name = name;
