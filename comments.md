@@ -20,7 +20,7 @@ Also known as "block" comments, these are preceded by `comment block start` and 
 ```
 comment block start
 comment block : Hello world!
-comment block
+comment block end
 ```
 
 In C\#:
