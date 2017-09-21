@@ -4,7 +4,7 @@ GLS intentionally targets a "lowest common denominator" of features for common O
 
 ## Intentionally Missing Features
 
-No language is perfect. The following are some seemingly obvious omissions in GLS that are due to languages not supporting them:
+If any target language doesn't reasonably support a feature, GLS cannot support that feature.
 
 | Feature | C\# | Java | Python | Ruby | \(Java\|Type\)Script |
 | :--- | :--- | :--- | :--- | :--- | :--- |
