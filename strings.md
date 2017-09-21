@@ -1,6 +1,6 @@
 # Strings
 
-Strings in GLS are denoted with _double_ apostrophes \(`"`\). Do not use single apostrophes \(``'```\) or back-ticks \(`````\). 
+Strings in GLS are denoted with _double_ apostrophes \(`"`\). Do not use single apostrophes or back-ticks.
 
 > Some languages, such as C\#, use single apostrophes to denote single characters and not strings.
 
