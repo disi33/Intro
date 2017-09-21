@@ -15,7 +15,29 @@ comment line : Hello world!
 
 ### Multi Line Comments
 
+Also known as "block" comments, these are preceded by `comment block start` and ended with `comment block end`. Each line of actual block content comes from `comment block`, which, like `comment line`, directly prints all its parameters.
 
+```
+comment block start
+comment block : Hello world!
+comment block
+```
+
+In C\#:
+
+```csharp
+/*
+ * Hello world!
+ */
+```
+
+In Python:
+
+```python
+"""
+Hello world!
+"""
+```
 
 
 
