@@ -77,5 +77,23 @@ class Noun(Word):
         print("Creating" + name)
 ```
 
+### This
+
+You can pass a reference to the current class using the `this` command.
+
+* In C\#: `this`
+* In Python: `self`
+
+### New
+
+Create new instances of classes with the `new` command. It takes in the name of the class and any number of arguments to pass to the parameter.
+
+```gls
+variable : fruit Noun { new : Noun "apple" }
+```
+
+* In C\#: `Noun fruit = new Noun("apple");`
+* In Python: `fruit = Noun("apple")`
+
 
 
